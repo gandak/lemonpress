@@ -8,10 +8,22 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.bannerHeader {
+  max-width: 1140px;
+  margin: auto;
+  margin-top: 22px;
+  cursor: pointer;
+}
+.bannerHeader img {
+  width: 100%;
+}
+
+/* Main Articles ---------------------------------------------------------------- */
+
 .main-articles-container {
   display: flex;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 1140px;
   margin: auto;
   margin-top: 30px;
 }
@@ -81,9 +93,9 @@ body {
 
 /* -------------  CATEGORIZED ARTICLES ----------------------- */
 .cat-articles-container {
-  max-width: 1200px;
+  max-width: 1140px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .cat-article-section {
@@ -92,7 +104,7 @@ body {
 }
 
 .cat-article-container {
-  width: 30%;
+  width: 32%;
   height: 380px;
   border-radius: 10px;
   overflow: hidden;
@@ -101,6 +113,12 @@ body {
 
 .cat-article-container img {
   width: 100%;
+}
+
+.cat-image-section {
+  height: 200px;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .cat-title-section {
