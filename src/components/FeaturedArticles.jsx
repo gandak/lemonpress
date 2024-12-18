@@ -1,6 +1,16 @@
 import { mainData } from "../data";
 import MainArticles from "./MainArticles";
 
+const generateFeaturedArticles = () => {
+  return (
+    <div>
+      <div className="featuredBig-image">
+        <img src={article.imageScr} alt="" />
+      </div>
+    </div>
+  );
+};
+
 export const FeaturedArticles = () => {
   return (
     <div className="featuredArticles-container">
@@ -15,13 +25,7 @@ export const FeaturedArticles = () => {
             .filter((article) => article.featured == true)
             .splice(0, 1)
             .map((article) => {
-              return (
-                <div>
-                  <div className="featuredBig-image">
-                    <img src={article.imageScr} alt="" />
-                  </div>
-                </div>
-              );
+              return <generateFeaturedArticles />;
             })}
         </div>
         <div className="featuredSmall">
