@@ -32,6 +32,10 @@
   gap: 45px;
 }
 
+.header .menu div {
+  cursor: pointer;
+}
+
 .header .searchButton {
   display: flex;
   justify-content: center;

@@ -70,7 +70,7 @@ export const mainData = [
     title: "Apple Pay 10 жилийн ойгоороо Монголд нэвтэрлээ",
     category: "Санхүү",
     date: "2024-12-11",
-    featured: false,
+    featured: true,
   },
   {
     imageScr:
