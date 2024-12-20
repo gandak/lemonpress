@@ -6,6 +6,7 @@ export const mainData = [
     category: "Бизнес",
     date: "2024-12-18",
     featured: true,
+    sponsored: false,
   },
   {
     imageScr:
@@ -14,6 +15,7 @@ export const mainData = [
     category: "Зах зээл",
     date: "2024-12-18",
     featured: true,
+    sponsored: false,
   },
   {
     imageScr:
@@ -22,6 +24,7 @@ export const mainData = [
     category: "Зах зээл",
     date: "2024-12-17",
     featured: true,
+    sponsored: false,
   },
   {
     imageScr:
@@ -30,6 +33,7 @@ export const mainData = [
     category: "Эдийн засаг",
     date: "2024-12-17",
     featured: false,
+    sponsored: false,
   },
   {
     imageScr:
@@ -38,6 +42,7 @@ export const mainData = [
     category: "Сурталчилгаа",
     date: "2024-12-17",
     featured: false,
+    sponsored: false,
   },
   {
     imageScr:
@@ -47,6 +52,7 @@ export const mainData = [
     category: "Эдийн засаг",
     date: "2024-12-16",
     featured: false,
+    sponsored: false,
   },
   {
     imageScr:
@@ -55,6 +61,7 @@ export const mainData = [
     category: "Хэвлэлийн мэдээ",
     date: "2024-12-13",
     featured: false,
+    sponsored: false,
   },
   {
     imageScr:
@@ -63,6 +70,7 @@ export const mainData = [
     category: "Бизнес",
     date: "2024-12-13",
     featured: false,
+    sponsored: false,
   },
   {
     imageScr:
@@ -71,6 +79,7 @@ export const mainData = [
     category: "Санхүү",
     date: "2024-12-11",
     featured: true,
+    sponsored: false,
   },
   {
     imageScr:
@@ -80,6 +89,7 @@ export const mainData = [
     category: "Бизнес",
     date: "2024-12-10",
     featured: false,
+    sponsored: false,
   },
   {
     imageScr:
@@ -89,6 +99,7 @@ export const mainData = [
     category: "Хэвлэлийн мэдээ",
     date: "2024-12-12",
     featured: false,
+    sponsored: false,
   },
   {
     imageScr:
@@ -98,6 +109,7 @@ export const mainData = [
     category: "Хэвлэлийн мэдээ",
     date: "2024-12-06",
     featured: false,
+    sponsored: false,
   },
   {
     imageScr:
@@ -107,5 +119,15 @@ export const mainData = [
     category: "Бизнес",
     date: "2024-12-10",
     featured: false,
+    sponsored: false,
+  },
+  {
+    imageScr:
+      "https://dash-api.yld.mn/api/image/28b2bfc0-03b5-41d1-befc-0b4e483c81f8",
+    title: "Monkondi брэнд Just Chocolate-г зах зээлд нэвтрүүллээ ",
+    category: "Хэвлэлийн мэдээ",
+    date: "2024-12-10",
+    featured: false,
+    sponsored: true,
   },
 ];
