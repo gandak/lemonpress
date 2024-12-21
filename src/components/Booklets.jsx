@@ -14,7 +14,11 @@ export const Booklets = () => {
     <div className="booklets-container">
       <div className="booklet-title">Товхимолууд</div>
       {bookletsData.map((booklet) => (
-        <BookletsGenerate date={booklet.date} title={booklet.title} />
+        <BookletsGenerate
+          key={booklet.id}
+          date={booklet.date}
+          title={booklet.title}
+        />
       ))}
     </div>
   );

@@ -47,6 +47,7 @@ export const FeaturedArticles = () => {
             .map((article) => {
               return (
                 <FtBigArticles
+                  key={article.id}
                   image={article.imageScr}
                   title={article.title}
                   category={article.category}
@@ -63,6 +64,7 @@ export const FeaturedArticles = () => {
               .map((article) => {
                 return (
                   <FtSmallArticles
+                    key={article.id}
                     image={article.imageScr}
                     title={article.title}
                     category={article.category}
@@ -78,6 +80,7 @@ export const FeaturedArticles = () => {
               .map((article) => {
                 return (
                   <FtSmallArticles
+                    key={article.id}
                     title={article.title}
                     category={article.category}
                     date={article.date}

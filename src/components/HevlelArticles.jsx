@@ -15,6 +15,7 @@ export const HevlelArticles = () => {
           .map((article) => {
             return (
               <CategorizedArticles
+                key={article.id}
                 image={article.imageScr}
                 category={article.category}
                 date={article.date}

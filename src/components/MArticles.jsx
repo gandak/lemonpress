@@ -29,6 +29,7 @@ export const M_Articles = () => {
           .map((article) => {
             return (
               <MainArticles
+                key={article.id}
                 image={article.imageScr}
                 category={article.category}
                 date={article.date}
@@ -40,8 +41,8 @@ export const M_Articles = () => {
       </div>
 
       <div className="banner">
-        <img src="https://ibb.co/YtZrTn7" alt="" />
-        <img src="https://ibb.co/9s1K45y" alt="" />
+        <img src="https://i.ibb.co/9qtM3K9/banner1.png" alt="" />
+        <img src="https://i.ibb.co/f4y6Nwr/banner2.png" alt="" />
       </div>
     </div>
   );

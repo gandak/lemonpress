@@ -55,14 +55,18 @@
 
 .sponsoredArticles-container {
   width: 32%;
+  /* background-color: black; */
 }
 
-.sponsored-article {
+/*  */
+.sponsoredArticles-container .sponsored-article {
   width: 100%;
   height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: end;
+  color: white;
   background-position: center;
   background-size: cover;
+  padding: 20px;
 }

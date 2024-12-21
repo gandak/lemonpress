@@ -1,5 +1,5 @@
 import { Booklets } from "./Booklets";
-import { MidEconomyArticles } from "./MidEconomyArticles";
+import { MidAsideArticles } from "./MidAsideArticles";
 import { SponsoredArticles } from "./SponsoredArticles";
 import "../css/midArticles.css";
 
@@ -8,7 +8,7 @@ export const MidArticles = () => {
     <div className="midArticles-container">
       <Booklets />
       <SponsoredArticles />
-      <MidEconomyArticles />
+      <MidAsideArticles />
     </div>
   );
 };
