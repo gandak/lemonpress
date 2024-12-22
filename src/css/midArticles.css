@@ -58,6 +58,9 @@
   /* background-color: black; */
 }
 
+.sponsoredArticles-container:hover {
+}
+
 /*  */
 .sponsoredArticles-container .sponsored-article {
   width: 100%;
@@ -69,4 +72,35 @@
   background-position: center;
   background-size: cover;
   padding: 20px;
+}
+
+.midAsideArticles-container {
+  width: 32%;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.midAsideBanner img {
+  width: 100%;
+  margin-bottom: 10px;
+  max-height: 500px;
+}
+
+.midAsideArticles {
+  padding: 15px;
+  border: 1px solid rgba(128, 128, 128, 0.216);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border-radius: 10px;
+}
+
+.midAsideArticle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(189, 189, 189, 0.265);
 }

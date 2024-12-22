@@ -7,6 +7,7 @@ import { HevlelArticles } from "./components/HevlelArticles";
 import { BannerHeader } from "./components/BannerHeader";
 import { FeaturedArticles } from "./components/FeaturedArticles";
 import { MidArticles } from "./components/MidArticles";
+import { Newsletter } from "./components/Newsletter";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <BannerHeader />
       <FeaturedArticles />
       <MidArticles />
+      <Newsletter />
       <M_Articles />
       <BusinessArticles />
       <HevlelArticles />

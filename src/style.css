@@ -32,6 +32,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 .banner img {
   width: 100%;
